@@ -1,0 +1,29 @@
+
+#bodyAll{
+    max-width: 640px;
+    margin:0 auto;
+    align:center;
+}
+
+
+#header{
+    width: 100%;
+    height:40px;
+    background-color: #0066ff;
+}
+#header h1{
+    text-align: center;
+    line-height: 40px;
+    color:#ffffff;
+    font-size: 20px;
+}
+
+.container{
+    margin: 50px auto;
+
+}
+
+#changeInfo{
+    margin: 0 auto;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+.container .panel{
+    padding: 5px 5px;
+    margin: 5px 0px;
+}
+.container .panel-body{
+    padding: 0px;
+}
+.container .panel-body td{
+    text-align: center;
+}
+#bodyAll .container table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#bodyAll .container tr{
+    border-collapse: collapse;
+    border-bottom: 1px solid lavender;
+    font-size:large;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 35px;
+}
+#bodyAll .container .title{
+    width:30%;
+    float:left;
+}
+#bodyAll .container .data{
+    width:70%;
+    float:left;
+}
+.operator {
+    padding: 5px 5px;
+    margin: 5px 0;
+}
+ .operator .gaiqian{
+     margin: auto;
+    width: 96%;
+    text-align: center;
+}
+.operator .gaiqian .btn{
+    width: 100%;
+    text-align: center;
+}
+.operator .gaiqian p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+.operator .tuipiao{
+    width: 96%;
+    height:10%;
+    text-align:center;
+    margin:auto;
+}
+.operator .tuipiao  .btn{
+    width: 100%;
+    text-align:center;
+}
+.tishi{
+    width:96%;
+    margin:10% auto;
+}
+.tishi p1{
+    font-size: larger;
+}

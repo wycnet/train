@@ -1,0 +1,41 @@
+
+*{margin:0;padding:0;}
+html{font-size:625%;}
+img{display:block;max-width: 100%;}
+body{font-size:16px; }
+
+
+
+#bodyAll{
+    max-width: 640px;
+    margin:0 auto;
+    align:center;
+}
+
+#bodyAll .container{
+    max-width: 640px;
+}
+
+
+#footer {
+    width: 100%;
+    height: 50px;
+    line-height:50px;
+    margin:0 auto;
+    background-color: #0066ff;
+    position: fixed;
+    bottom: 0px;
+}
+
+#footer .footer-bottom li{
+    float:left;
+    width:25%;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 0;
+}
+#footer .footer-bottom li a{
+    color: #ffffff;
+}
+

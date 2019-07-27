@@ -1,0 +1,40 @@
+header{
+    width: 100%;
+    height:40px;
+    background-color: #0066ff;
+}
+header h1{
+    text-align: center;
+    line-height: 40px;
+    color:#ffffff;
+    font-size: 20px;
+}
+
+#myCarousel{
+
+}
+
+#gong-gao{
+    background-color: #5bc0de;
+}
+#gong-gao h1{
+    display:block;
+    width:100%;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    background-color: #0066ff;
+    margin-top: 5px;
+}
+#gong-gao .lu-gg{
+    margin: 5px 10px;
+
+}
+#gong-gao .lu-gg li{
+    margin:20px auto;
+
+}
+#gong-gao span{
+    float:right;
+}

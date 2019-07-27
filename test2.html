@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>学生火车票预定</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/dingpiao.css"/>
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+
+</head>
+<body>
+<div id="bodyAll">
+    <header>
+        <div>
+            <h1>订票</h1>
+        </div>
+    </header>
+
+    <section  id="train-index">
+        <ul>
+            <li class="dress">
+                <input class="left" type="text" placeholder="北京"/><button><span class="glyphicon glyphicon-refresh"></span></button><input class="right" type="text" placeholder="上海"/>
+            </li>
+            <li>
+                <!--
+                    <input type="text" placeholder="07月14日"/><button class="btn-data">日期<span class="glyphicon glyphicon-chevron-right"></span></button>
+                -->
+                <div class="input-group date form_date col-md-5" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                    <input class="form-control" size="16" type="text" value="" readonly>
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                </div>
+            </li>
+            <li>
+                <label class="lb1">学生票<input name="Fruit" type="radio" value="" /> </label><label class="lb2">成人票<input name="Fruit" type="radio" value="" /> </label>
+            </li>
+        </ul>
+
+        <div  class="train-index-btnbox">
+            <button >查询</button>
+        </div> <!---->
+    </section>
+
+
+
+</div>
+
+
+
+<footer id="footer">
+    <div class="footer-bottom">
+        <ul>
+            <li><a href="index.html"><i class="icon-home"></i><br/>首页</a></li>
+            <li><a href="dingpiao.html"><i class="icon-file-text"></i><br/>订票</a></li>
+            <li><a href="dingdan.html"><i class="icon-profile"></i><br/>订单</a></li>
+            <li><a href="user.html"><i class="icon-user"></i><br/>用户</a></li>
+        </ul>
+    </div>
+</footer>
+
+<div style="height:500px; background-color: red">
+
+</div>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+<script type="text/javascript" src="js/locales/bootstrap-datetimepicker.fr.js" charset="UTF-8"></script>
+<script type="text/javascript">
+    $('.form_date').datetimepicker({
+        language:  'fr',
+        weekStart: 1,
+        todayBtn:  1,
+        autoclose: 1,
+        todayHighlight: 1,
+        startView: 2,
+        minView: 2,
+        forceParse: 0
+    });
+</script>
+
+</body>
+</html>

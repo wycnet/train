@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <title>学生火车票预定</title>
+    <link rel="shortcut icon" href="img/logo.ico"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+
+</head>
+<body>
+<div id="bodyAll">
+    <header>
+        <div>
+            <h1>学生火车票预定</h1>
+        </div>
+    </header>
+
+    <div id="myCarousel" class="carousel slide">
+        <ul class="carousel-indicators" >
+            <li data-target="#myCarousel" data-slide-to="0"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="item active"><img src="img/1.jpg" alt="轮播1"/></div>
+            <div class="item "><img src="img/2.jpg" alt="轮播2"/></div>
+            <div class="item "><img src="img/3.jpg" alt="轮播3"/></div>
+            <div class="item "><img src="img/4.jpg" alt="轮播4"/></div>
+            <div class="item "><img src="img/5.jpg" alt="轮播5"/></div>
+        </div>
+        <a href="#myCarousel" class="carousel-control left" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a href="#myCarousel" class="carousel-control right" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+
+
+
+    <div id="gong-gao">
+        <h1>公告</h1>
+        <ul class="lu-gg">
+            <li><span class="date">2017-1-1</span><a href="#" target="_blank">本系统使用方法</a></li>
+            <li><span class="date">2017-3-16</span><a href="#" target="_blank">2017年学生票购票新规定</a></li>
+            <li><span class="date">2017-3-21</span><a href="#" target="_blank">2017年新增高铁线路</a></li>
+            <li><span class="date">2017-4-5</span><a href="#" target="_blank">2017年高铁票价格变动情况</a></li>
+            <li><span class="date">2017-5-1</span><a href="#" target="_blank">2017年暑假学生票购票时间</a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+<footer id="footer">
+    <div class="footer-bottom">
+        <ul>
+            <li><a href="index.html"><i class="icon-home"></i><br/>首页</a></li>
+            <li><a href="dingpiao.html"><i class="icon-file-text"></i><br/>订票</a></li>
+            <li><a href="dingdan.html"><i class="icon-profile"></i><br/>订单</a></li>
+            <li><a href="user.html"><i class="icon-user"></i><br/>用户</a></li>
+        </ul>
+    </div>
+</footer>
+
+<div style="height:50px;" >
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('#myCarousel').carousel({
+            interval:3000
+        })
+    })
+</script>
+
+</body>
+</html>
